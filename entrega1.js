@@ -1,3 +1,4 @@
+// agregar a products la propiedad id y que sea autoincremental
 
 class ProductManager {
     constructor() {
@@ -41,8 +42,6 @@ const product1 = {
     code: 'abc123',
     stock: 25
 };
-
-
 
 productManager.addProduct(product1);
 
